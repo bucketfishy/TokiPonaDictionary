@@ -3,28 +3,28 @@
 */
 
 @font-face {
-  font-family: 'Source Sans Pro';
-  font-weight: 200;
-  src: local(Source Sans Pro ExtraLight),
-    url(fonts/SubsetSourceSansPro-ExtraLight.woff);
+  font-family: 'Roboto';
+  font-weight: 100;
+  src: local(Roboto Thin),
+    url(fonts/Roboto-Thin.woff);
 }
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto';
   font-weight: 300;
-  src: local(Source Sans Pro Light),
-    url(fonts/SubsetSourceSansPro-Light.woff);
+  src: local(Roboto Light),
+    url(fonts/Roboto-Light.woff);
 }
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto';
   font-weight: 400;
-  src: local(Source Sans Pro),
-    url(fonts/SubsetSourceSansPro-Regular.woff);
+  src: local(Roboto),
+    url(fonts/Roboto-Regular.woff);
 }
 @font-face {
-  font-family: 'Source Sans Pro';
-  font-weight: 600;
-  src: local(Source Sans Pro Semibold),
-    url(fonts/SubsetSourceSansPro-SemiBold.woff);
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: local(Roboto Bold),
+    url(fonts/Roboto-Bold.woff);
 }
 
 /*
@@ -32,21 +32,21 @@
 */
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: snow;
   font-size: 20px;
   margin: 0;
 
-  background-color: #FF822E;
-  background-image: -webkit-linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
-  background-image: -moz-linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
-  background-image: -o-linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
-  background-image: linear-gradient(172deg, #ff822e 0%, #fa6c6c 100%, #fbb8b8 100%);
+  background-color: #5daecf;
+  background-image: -webkit-linear-gradient(172deg, #5daecf 25%, #cc546b 75%);
+  background-image: -moz-linear-gradient(172deg, #5daecf 25%, #cc546b 75%);
+  background-image: -o-linear-gradient(172deg, #5daecf 25%, #cc546b 75%);
+  background-image: linear-gradient(172deg, #5daecf 25%, #cc546b 75%);
 }
 
 #main-wrapper {
   margin: 10px auto;
-  width: 500px;
+  width: 600px;
   min-height: 100vh;
 }
 @media screen and (max-width: 550px) {
@@ -70,11 +70,11 @@ a {
 
 header {
   text-align: center;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 h1 {
-  font-weight: 200;
+  font-weight: 100;
   font-size: 40px;
   letter-spacing: 3px;
   margin: 0;
@@ -145,8 +145,9 @@ input:-moz-placeholder {
   border-bottom: thin solid snow;
 }
 .word {
-  margin: 2.5em 0;
+  margin: 2em 0;
   display: flex;
+  justify-content: space-between;
   font-weight: 400;
 }
 @media screen and (max-width: 350px) {
@@ -178,7 +179,7 @@ input:-moz-placeholder {
 }
 .speech-type {
   color: #efe8e8;
-  font-weight: 200;
+  font-weight: 100;
   margin-right: 4px;
 }
 
@@ -187,22 +188,22 @@ input:-moz-placeholder {
 */
 
 footer {
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 16px;
 }
 
 .footer-title {
-  font-weight: 600;
+  font-weight: 700;
 }
 .parts-of-speech {
   font-weight: 300;
 }
 
 .credits {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 10px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 20px;
   bottom: 0;
 }
 .credits ul {
