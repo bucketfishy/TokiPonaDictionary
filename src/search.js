@@ -48,6 +48,8 @@ export class ElementSearcher {
     }
 
     this._nodes.forEach((element, id) => {
+      //console.log(this._textNodes.get(id));
+
       if (this._textNodes.get(id).has(query)) { this._showElement(element); }
       else { this._hideElement(element); }
     });
@@ -105,8 +107,9 @@ export class ElementSearcher {
    * nodes in no particular order.
    */
   _getTextNodesRecursively(element, textNodes = new Set()) {
+
       this._getTextNode(element)
-        .split(/\W+/)
+        .split(/[^A-Za-z1-9öòóõôŏüũúùûŭá_]+/)
         .forEach(textNodes.add, textNodes);
 
     if (element.hasChildNodes()) {
