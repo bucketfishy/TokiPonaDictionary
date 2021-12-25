@@ -1,10 +1,12 @@
-# Toki Pona dictionary
+# uwulang dictionary
 
-A simple Toki Pona - English dictionary with search function.
+a simple uwulang - english dictionary with search function.
 
-This dictionary strives to cover all the words as used by Toki Pona speakers without forgetting about the official dictionary. So it includes some unofficial words and meanings but they are always marked with an asterisk.
+this dictionary is forked by bucketfish from [jprogr's simple toki pona dictionary](https://github.com/jProgr/TokiPonaDictionary). it has been updated to use uwulang data.
 
-This dictionary uses many sources for its information, please see the credits file for more detail.
+the data used in this dictionary is from the [official uwulang document](https://docs.google.com/document/d/1ZV1U0S8qC6yJEi6grFO_Vq5A15lRVCLYeq_udWsC-9Y/edit).
+
+all content below are unedited from the original project.
 
 ## Development
 
@@ -38,7 +40,7 @@ npm run build
 
 The project includes other commands to aid development.
 
-To see the page in any other device in your local netwrok you can use the following command:
+To see the page in any other device in your local network you can use the following command:
 
 ```
 npm run start:open
