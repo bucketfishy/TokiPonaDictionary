@@ -87,8 +87,8 @@
       "word":"ov",
       "meanings":[
          [
-            "question",
-            "particle"
+            "particle",
+            "question"
          ]
       ]
    },
@@ -612,7 +612,11 @@
       "meanings":[
          [
             "adjective",
-            "collective, cooperative adverb together, collectively, cooperatively"
+            "collective, cooperative"
+         ],
+         [
+            "adverb",
+            "together, collectively, cooperatively"
          ]
       ]
    },
@@ -1236,14 +1240,10 @@
    {
       "word":"õwõ",
       "meanings":[
-         [
-            "noun",
-            "north"
-         ],
-         [
-            "adjective",
-            "north, northern"
-         ]
+          [
+             "noun",
+             "place, location, direction"
+          ]
       ]
    },
    {
@@ -1262,10 +1262,14 @@
    {
       "word":"õwõ uwow",
       "meanings":[
-         [
-            "noun",
-            "place, location, direction"
-         ]
+        [
+           "noun",
+           "north"
+        ],
+        [
+           "adjective",
+           "north, northern"
+        ]
       ]
    },
    {
