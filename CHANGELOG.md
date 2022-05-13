@@ -1,5 +1,9 @@
 # Changelog
 
+## 220513
+### Changed
+- Changed "report an issue" link to go to the issues tab instead of pull requests tab.
+
 ## 211226
 ### Changed
 - Separated out ŏvowo's adverb definition.
